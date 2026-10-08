@@ -1,0 +1,8 @@
+project_id   = "your-google-cloud-project-id"
+region       = "us-central1"
+zone         = "us-central1-a"
+name_prefix  = "tutorial-vm"
+machine_type      = "e2-micro"
+boot_disk_size_gb = 10
+assign_public_ip  = false
+enable_iap_ssh    = true
